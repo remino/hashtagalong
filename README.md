@@ -18,7 +18,7 @@ by Remino Rem <https://remino.net/>
 git clone https://github.com/remino/hashtagalong
 cd hashtagalong
 nvm use # If you have nvm installed
-npm instal
+npm install
 ```
 
 ## Usage
