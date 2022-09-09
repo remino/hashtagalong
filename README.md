@@ -9,6 +9,7 @@ by Remino Rem <https://remino.net/>
 	- [API](#api)
 	- [CLI](#cli)
 		- [Examples](#examples)
+- [Tests](#tests)
 - [Licence](#licence)
 
 ## Installation
@@ -62,6 +63,12 @@ echo '#a b #c' | ./hashtagalong -f
 # Each output: #a #c
 ./hashtagalong -f a b c
 echo a b c | ./hashtagalong -f
+```
+
+## Tests
+
+```sh
+npm test
 ```
 
 ## Licence
