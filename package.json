@@ -1,6 +1,6 @@
 {
 	"name": "hashtagalong",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Library of hashtag helpers",
 	"main": "lib/index.js",
 	"type": "module",
@@ -13,6 +13,9 @@
 		"lint": "npx eslint",
 		"lint:fix": "npx eslint --fix",
 		"test": "npx jasmine"
+	},
+	"bin": {
+		"hashtagalong": "./hashtagalong.js"
 	},
 	"keywords": [],
 	"author": "",
