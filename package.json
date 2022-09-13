@@ -4,6 +4,11 @@
 	"description": "Library of hashtag helpers",
 	"main": "lib/index.js",
 	"type": "module",
+	"homepage": "https://github.com/remino/hashtagalong#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/remino/hashtagalong"
+	},
 	"engines": {
 		"node": ">= 18.7.0",
 		"npm": ">= 8.18.0"
@@ -17,7 +22,12 @@
 	"bin": {
 		"hashtagalong": "./hashtagalong.js"
 	},
-	"keywords": [],
+	"keywords": [
+		"hashtag",
+		"hashtags",
+		"hashtagalong",
+		"octothorpe"
+	],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
