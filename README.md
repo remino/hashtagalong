@@ -9,16 +9,14 @@ by Remino Rem <https://remino.net/>
 	- [API](#api)
 	- [CLI](#cli)
 		- [Examples](#examples)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Licence](#licence)
 
 ## Installation
 
 ```sh
-git clone https://github.com/remino/hashtagalong
-cd hashtagalong
-nvm use # If you have nvm installed
-npm install
+npm add hashtagalong
 ```
 
 ## Usage
@@ -65,6 +63,16 @@ echo '#a b #c' | ./hashtagalong -f
 echo a b c | ./hashtagalong -f
 ```
 
+## Contributing
+
+If you with to contribute to this module, clone this repo, start a new branch, then submit a pull request:
+
+```sh
+git clone https://github.com/remino/hashtagalong
+cd hashtagalong
+nvm use # If you have nvm installed
+npm install
+```
 ## Tests
 
 ```sh
