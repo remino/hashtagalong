@@ -4,6 +4,10 @@ hashtagalong
 Library of hashtag helpers  
 by Remino Rem <https://remino.net/>
 
+[Docs](https://remino.github.io/hashtagalong/index.html)
+| [GitHub](https://github.com/remino/hashtagalong)
+| [NPM](https://www.npmjs.com/package/hashtagalong)
+
 - [Installation](#installation)
 - [Usage](#usage)
 	- [API](#api)
