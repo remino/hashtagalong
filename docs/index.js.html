@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: format.js</title>
+    <title>JSDoc: Source: index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: format.js</h1>
+    <h1 class="page-title">Source: index.js</h1>
 
     
 
@@ -26,33 +26,15 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>/** @module lib/format */
+            <pre class="prettyprint source linenums"><code>/** @module lib/index */
 
-/**
- * Returns a formatted string of hashtags from the keywords in the specified
- * string or array of strings.
- *
- * @example
- * // returns `#a #b #c`
- * extract('a #b c')
- *
- * @example
- * // returns `#a #b #c`
- * extract(['a', ['#b', 'c'])
- *
- * @param {...string|string[]} input String or array of strings with keywords.
- * @returns {string} String with formatted and sorted hashtags.
- */
-export default (...input) => input
-	.flat(Infinity)
-	.join(' ')
-	.trim()
-	.toLowerCase()
-	.split(/\s+/)
-	.map(word => word.replace(/^[#＃]/g, '').replace(/-/g, ''))
-	.sort()
-	.map(word => `#${word}`)
-	.join(' ')
+import extract from './extract.js'
+import format from './format.js'
+
+export default {
+	extract,
+	format,
+}
 </code></pre>
         </article>
     </section>
