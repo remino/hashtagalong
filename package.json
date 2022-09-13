@@ -1,6 +1,6 @@
 {
 	"name": "hashtagalong",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Library of hashtag helpers",
 	"main": "lib/index.js",
 	"type": "module",
